@@ -1,18 +1,13 @@
 package com.cristian.citasmedicas.model;
 
-import jakarta.persistence.*;
+import com.cristian.citasmedicas.model.enums.Rol;
 import lombok.Data;
 
-@Entity
 @Data
-public class Usuario {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public abstract class Usuario {
 
-    private String nombre;
-    @Column(unique = true)
+    private int id;
     private String email;
     private String password;
-    private String rol; // "PACIENTE", "DOCTOR", "ADMIN"
+    private Rol rol;
 }
