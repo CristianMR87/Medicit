@@ -20,7 +20,5 @@ Aplicación web para la gestión de citas médicas entre pacientes y profesional
     El frontend consume esta API para mostrar y gestionar los datos desde una interfaz intuitiva.
     Todo el proyecto está contenerizado con Docker para facilitar su despliegue y ejecución.
 
-⚙️ Estado del proyecto
-
-🔧 En desarrollo (Work in progress)
+⚙️ Estado del proyecto --> 🔧 En desarrollo (Work in progress)
 
