@@ -1,24 +1,23 @@
-Aplicación web para la gestión de citas médicas entre pacientes y profesionales de la salud.
+Web Application for Managing Medical Appointments Between Patients and Healthcare Professionals
 
-🚀 Tecnologías utilizadas
+🚀 Technologies Used
 
-    Backend: Java + Spring Boot
-    Base de datos: MySQL
-    API: RESTful
-    Frontend: React + TailwindCSS
-    Contenerización: Docker
+- Backend: Java + Spring Boot
+- Database: MySQL
+- API: RESTful
+- Frontend: React + TailwindCSS
+- Containerization: Docker
 
-🧩 Funcionalidades principales
+🧩 Main Features
 
-    Registro y autenticación de usuarios
-    Gestión de citas médicas (crear, consultar, modificar, cancelar)
-    Menús diferenciados para pacientes y doctores
+- User registration and authentication
+- Medical appointment management (create, view, update, cancel)
+- Separate menus for patients and doctors
 
-🧱 Arquitectura
+🧱 Architecture
 
-    El backend expone una API REST para interactuar con la base de datos MySQL.
-    El frontend consume esta API para mostrar y gestionar los datos desde una interfaz intuitiva.
-    Todo el proyecto está contenerizado con Docker para facilitar su despliegue y ejecución.
+- The backend exposes a REST API to interact with the MySQL database.
+- The frontend consumes this API to display and manage data through an intuitive interface.
+- The entire project is containerized with Docker to simplify deployment and execution.
 
-⚙️ Estado del proyecto --> 🔧 En desarrollo (Work in progress)
-
+⚙️ Project Status → 🔧 Paused
